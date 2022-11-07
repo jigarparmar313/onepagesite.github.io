@@ -1,0 +1,54 @@
+
+@media only screen and (max-width: 500px) {
+
+    .legal, .email a{
+        text-align: center;
+    }
+
+    .we_design_right{
+      margin-top: 20px;
+  }
+  .legal.mt_99 {
+    text-align: center;
+}
+
+  
+  }
+
+  @media only screen and (max-width: 991px) {
+    
+   .t_c{
+    text-align: center;
+   }
+
+   .project_1{
+    text-align: center !important;
+   }
+
+   a.t_c_e {
+    text-align: center;
+    width: 100%;
+}
+
+.project_1_r ul li a{
+  text-align: center;
+  width: 100%;
+}
+.t_c{
+  text-align: center !important;
+}
+
+.project_1{
+  width: 100%;
+  margin: auto;
+  padding-top:50px ;
+}
+
+.mt_20{
+  margin-top: 20px;
+}
+
+.mt_99{
+  margin-top: none;
+}
+  }

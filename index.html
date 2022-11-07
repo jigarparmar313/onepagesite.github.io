@@ -1,0 +1,1341 @@
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>One Page</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+        <!-- wow animation  -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/js/fontawesome.min.js"></script> -->
+        <!-- <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+
+        <link rel='stylesheet' type='text/css' media='screen' href='css/media_query.css'>
+
+
+        <link rel='stylesheet' type='text/css' media='screen' href='bootstrap/bootstrap.min.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+
+        <style>
+            @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+            @import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+
+
+
+            div.item {
+                position: relative;
+                float: left;
+                overflow: hidden;
+                /* margin: 10px 1%; */
+                /* min-width: 220px;
+              max-width: 310px; */
+                width: 100%;
+                /* background: #000000; */
+                text-align: center;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+                /*   border-radius: 10%; */
+            }
+
+            div.item:hover {
+                /* background-color: #10c9c3; */
+                background: orange;
+                /* background-color: #1d6dbd; */
+
+
+            }
+
+            div.item * {
+                box-sizing: border-box;
+            }
+
+            div.item img {
+                max-width: 100%;
+                vertical-align: top;
+                height: 210px;
+                padding: 15px;
+            }
+
+            div.item i {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                border-radius: 50%;
+                font-size: 34px;
+                /* color: #000000; */
+                color: whitesmoke;
+
+                width: 60px;
+                height: 60px;
+                line-height: 60px;
+                background-color: #1d6dbd;
+                /* background: #ffffff; */
+                transform: translate(-50%, -50%) scale(0);
+                transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            }
+
+            div.item a {
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                position: absolute;
+            }
+
+
+
+            div.item:hover img,
+            div.item:active {
+                opacity: 0.3;
+                filter: grayscale(100);
+            }
+
+            div.item * {
+                transition: all 0.35s ease-in-out;
+            }
+
+            div.item:hover i,
+            div.item:active i {
+                transform: translate(-50%, -50%) scale(1);
+                transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            }
+
+            @media screen and (max-width: 700px) {
+                body {
+                    margin: 0;
+                }
+
+                h1 {
+                    font-size: 35px;
+                }
+
+            }
+
+
+            /* brands images  */
+
+            .logo_2{
+                width: 100%;
+                float: left;
+            }
+
+            .logo_2 img{
+                width: 25%;
+                margin: auto;
+            }
+        </style>
+
+
+    </head>
+
+    <body>
+
+        <!-- section 1  logo and nav  -->
+
+        <section class=" bg_img">
+
+            <div class="container mt_15">
+
+                <div class="row">
+
+                    <div class="col-lg-3">
+
+                        <div class="logo_o_p animate__animated animate__fadeInLeft animate__delay-1s">
+
+                            <a href="index.html">
+
+                                <!-- <img src="img/s_c_logo.png" alt=""> -->
+                                <img src="img/logo.png" alt="">
+
+                            </a>
+
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-9">
+
+                        <div class="nav_one_page animate__animated animate__fadeInRight animate__delay-1s">
+
+                            <ul>
+                                <li><a href="#home">HOME</a></li>
+                                <li><a href="#about">ABOUT</a></li>
+                                <li><a href="#work">WORK</a></li>
+                                <li><a href="#process">PROCESS</a></li>
+                                <li><a href="#services">SERVICES</a></li>
+                                <li><a href="#testimonial">TESTIMONIALS</a></li>
+                                <li><a href="#contact">CONTACT</a></li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- section 1  logo and nav   ( ends )  -->
+
+
+            <!-- section 2 ( contact info ) -->
+
+
+            <!-- <section class=""> -->
+
+
+            <div class="container">
+
+                <div class="row">
+
+
+                    <div class="col-lg-6">
+
+                        <!-- <div class="contact_info">
+
+                            <h1>Contact info:</h1>
+
+                            <p class="mt-4">To give give beginning divide, cattle. Give moving <br>
+                                won't, there the abundantly she'd she'd brought air <br>
+                                upon. Light hath subdue. Life days creature upon <br>
+                                first heaven gathering dry.</p>
+
+
+                            <div class="add mt-4">
+                                <span class="bb">Address:</span><a href="">&nbsp;&nbsp;&nbsp;&nbsp;10111 Santa Monica Boulevard, LA</a>
+                            </div>
+
+                            <div class="add">
+                                <span>Phone:<span><a href="">&nbsp;&nbsp;&nbsp;+44 987 065 908</a>
+                            </div>
+
+                            <div class="add">
+                                <span>Email:</span><a href="">&nbsp;&nbsp;info@Example.com</a>
+                            </div>
+
+
+                            <div class="add">
+                                <span>Fax:</span><a href="">&nbsp;+44 987 065 908</a>
+                            </div>
+
+
+                        </div> -->
+
+
+                    </div>
+
+
+                    <div class="col-lg-6" id="home">
+
+                        <div class="we_design_right mt_99 mb_99">
+
+                            <!-- <h1>We Design and Develop</h1> -->
+                            <h1>WELCOME TO SHIVAM COMPUTER CLASSES</h1>
+
+                            <!-- <p class="mt-4">We are a new design studio based in USA. We have over
+                                20 years of combined experience, and know a thing or two
+                                about designing websites and mobile apps.</p> -->
+
+
+                            <p class="mt-4">SHIVAM COMPUTER [ Swami Vivekanand Academy Of Education ] is register by
+                                UECT under Act.
+                                1882 Reg. No. 2820 from Govt. of India N.C.T. New Delhi & Guj. Reg. No.E/20713/Ahd. GCTI
+                                IS ALSO AN ISO 9001:2008 Certified Organization</p>
+
+
+                            <div class="btn_2 mt-3  contact_us">
+
+                                <!-- <button class="button_2  btn  ">CONTACT US</button> -->
+                                <a href="#" target="_blank" class="text-decoration-none">
+                                    <span> </span>
+                                    <span> </span>
+                                    <span> </span>
+                                    <span> </span>
+                                    <!-- CONTACT US -->
+                                    READ MORE
+                                </a>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+            </div>
+
+
+        </section>
+
+
+        <!-- section 2 ( contact info  ends ) -->
+
+
+
+
+        <!-- section 3 ( about us ) -->
+
+
+        <section>
+
+            <div class="container" id="about">
+
+
+                <div class="row">
+
+                    <div class="col-lg-12 text-center mt_99 mb_99 ">
+
+                        <div class="about_us">
+
+                            <h1>About Us</h1>
+
+                            <!-- <p>Divide have don't man wherein air fourth. Own itself make have night won't make. <br>
+                                A you under Seed appear which good give. Own give air without fowl moveth dry first
+                                <br>
+                                heaven fruit, dominion she'd won't very all.
+                            </p> -->
+
+                            <p class="mt-4">SHIVAM COMPUTER Institute was founded in the year 2000, in Ahmedabad. <br>Computer Institute
+                                is one of the leading software training companies in India offering comprehensive <br> IT
+                                courses and cutting-edge training programs to IT aspirants [students & individuals], <br>
+                                working professionals, corporates, institutions and government entities.</p>
+
+
+                            <div class="sign">
+
+                                <img src="img/a_m sign/signature.png" alt="" class="img-fluid">
+
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- section 3 ( about us  ends ) -->
+
+
+
+
+        <!-- section 4 ( professional skills) -->
+
+        <section>
+
+            <div class="container-fluid" id="work">
+
+
+                <div class="row">
+
+                    <div class="col-lg-6">
+
+                        <div class="bars">
+
+                            <h1>Professional Skills</h1>
+
+                            <div class="ux mt-5">
+
+                                <h6>UX/UI DESIGN &nbsp;&nbsp;&nbsp;75%</h6>
+
+                                <div class="progress" style="height: 5px;">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="ux mt-4">
+
+                                <h6>Web Development &nbsp;&nbsp;&nbsp;90%</h6>
+
+                                <div class="progress" style="height: 5px;">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+
+                            </div>
+
+                            <div class="ux mt-4">
+
+                                <h6>Marketing &nbsp;&nbsp;&nbsp;65%</h6>
+
+                                <div class="progress" style="height: 5px;">
+                                    <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-6 g-0">
+
+                        <div class="hours_glass_img">
+
+                            <img src="img/one_page/tuxpi.com.1665230831.jpg" alt="" width="100%">
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+
+                </div>
+
+        </section>
+
+
+
+        <!-- section 4 ( professional skills ends ) -->
+
+
+
+        <!-- section 5  ( counter ) -->
+
+
+        <section id="process">
+
+            <div class="container-fluid blue_bg_counter">
+
+
+                <!-- <div class="container"> -->
+                <div class="row text-center">
+
+                    <div class="col-lg-3 mt_99 mb_99">
+
+                        <div class="counter">
+                            <i class="fa fa-briefcase"></i>
+                            <h2 class="timer count-title count-number" data-to="100" data-speed="1500"></h2>
+                            <p class="count-text ">Our Customer</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3  mt_99 mb_99">
+
+                        <div class="counter">
+                            <i class="fa fa-clock-o"></i>
+                            <h2 class="timer count-title count-number" data-to="1700" data-speed="1500"></h2>
+                            <p class="count-text ">Happy Clients</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3  mt_99 mb_99">
+
+                        <div class="counter">
+                            <i class="fa fa-star-o"></i>
+                            <h2 class="timer count-title count-number" data-to="11900" data-speed="1500"></h2>
+                            <p class="count-text ">Project Complete</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3  mt_99 mb_99">
+
+                        <div class="counter">
+                            <i class="fa fa-heart-o"></i>
+                            <h2 class="timer count-title count-number" data-to="157" data-speed="1500"></h2>
+                            <p class="count-text ">Coffee With Clients</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+
+        <!-- section 5  ( counter ends ) -->
+
+
+
+
+        <!-- section 6 images  -->
+
+
+        <section id="services">
+
+            <div class="container-fluid text-center mt_99">
+
+                <div class="row">
+
+                    <div class="col-lg-3">
+
+                        <div class="item services_1 img-responsive">
+
+                            <img src="img/one_page/4_4_images/1_angular_.png" alt="">
+                            <i class="fa fa-angular"></i>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <div class="item services_1 img-responsive">
+
+                            <img src="img/one_page/4_4_images/2_react_js.png" alt="">
+                            <i class="fa fa-react"></i>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <div class="item services_1 img-responsive">
+
+                            <img src="img/one_page/4_4_images/3_python.png" alt="">
+                            <i class="fa fa-python"></i>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <div class="item services_1 img-responsive">
+
+                            <img src="img/one_page/4_4_images/4_c.png" alt="">
+                            <i class="fa fa-c"></i>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div class="row mb_99 mt-5">
+
+                    <div class="col-lg-3">
+
+                        <div class="item services_1 img-responsive">
+
+                            <img src="img/one_page/4_4_images/5_Java.png" alt="">
+                            <i class="fa fa-java"></i>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <div class="item services_1 img-responsive">
+
+                            <img src="img/one_page/4_4_images/6_php.png" alt="">
+                            <i class="fa fa-php"></i>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <div class="item services_1 img-responsive">
+
+                            <img src="img/one_page/4_4_images/7_htm.png" alt="">
+                            <i class="fa-brands fa-html5"></i>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <div class="item services_1 img-responsive">
+
+                            <img src="img/one_page/4_4_images/8_css.png" alt="">
+                            <i class="fa fa-css3"></i>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="row">
+
+                    <div class="col-lg-12  g-0">
+
+
+                        <div class="l_m gray_color_2 g-0 pd_50">
+
+                            <a href="" class="load-more text-decoration-none" style="color:gray ;">Load More</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+            </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- section 6 images  ( ends )-->
+
+
+
+        <!-- section 7 ( our work process ) -->
+
+
+        <section id="testimonial">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-12">
+
+                        <div class="our_work mt_99 mb_99">
+
+                            <h1>Our Work Process</h1>
+
+                            <p class="mt-4">Was years it seasons was there form he in in them together over that,
+                                <br>
+                                third sixth gathered female creeping bearing behold years.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="row mb_99">
+
+                    <div class="col-lg-12">
+
+                        <!-- <video src=""></video> -->
+                        <iframe width="100%" height="571" src="https://www.youtube.com/embed/gQRsgFw7tcg"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+        <!-- section 7 ( our work process  ends ) -->
+
+
+        <!-- section 8  different icons  ( all icons ) -->
+
+
+        <section class="gray_color_2">
+
+
+            <div class="container">
+
+
+                <div class="row ">
+
+                    <div class="col-lg-3 text-center mt_99">
+
+                        <div class="all_icons">
+
+                            <i class="fa fa-diamond all_icons_border" style="font-size: 30px ; padding: 15px ;  "></i>
+
+                            <h4 class="mt-4">UI / UX DESIGN</h4>
+
+                            <p class="mt-3">Be set fourth land god darkness <br>
+                                make it wherein own</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 text-center mt_99">
+
+                        <div class="all_icons">
+
+                            <i class="fa fa-desktop" aria-hidden="true"
+                                style="font-size: 30px ; font-size: 30px ; padding: 15px ;"></i>
+
+                            <h4 class="mt-4">WEB DEVELOPMENT</h4>
+
+                            <p class="mt-3">Be set fourth land god darkness <br>
+                                make it wherein own</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 text-center mt_99">
+
+                        <div class="all_icons">
+
+                            <i class="fa fa-mobile-screen-button" style="font-size: 30px; padding: 15px ;  "></i>
+
+                            <h4 class="mt-4">APP / MOBILE</h4>
+
+                            <p class="mt-3">Be set fourth land god darkness <br>
+                                make it wherein own</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 text-center mt_99">
+
+                        <div class="all_icons">
+
+                            <i class="fa fa-gamepad" aria-hidden="true" style="font-size: 30px ; padding: 15px ;"></i>
+
+                            <h4 class="mt-4">GAME DESIGN</h4>
+
+                            <p class="mt-3">Be set fourth land god darkness <br>
+                                make it wherein own</p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="row mt-5">
+
+                    <div class="col-lg-3 text-center mb_99">
+
+                        <div class="all_icons">
+
+                            <i class="fa fa-paper-plane"
+                                style="font-size: 30px ; font-size: 30px ; padding: 15px ;"></i>
+
+                            <h4 class="mt-4">SEO MARKETING</h4>
+
+                            <p class="mt-3">Be set fourth land god darkness <br>
+                                make it wherein own</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 text-center mb_99">
+
+                        <div class="all_icons">
+
+                            <i class="fa fa-star-half-empty" aria-hidden="true"
+                                style="font-size: 30px ; font-size: 30px ; padding: 15px ;"></i>
+
+                            <h4 class="mt-4">PHOTOGRAPH</h4>
+
+                            <p class="mt-3">Be set fourth land god darkness <br>
+                                make it wherein own</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 text-center mb_99">
+
+                        <div class="all_icons">
+
+                            <i class="fa fa-magic" style="font-size: 30px ; font-size: 30px ; padding: 15px ;"></i>
+
+                            <h4 class="mt-4">GRAPHIC DESIGN</h4>
+
+                            <p class="mt-3">Be set fourth land god darkness <br>
+                                make it wherein own</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 text-center mb_99">
+
+                        <div class="all_icons">
+
+                            <i class="fa fa-gears" aria-hidden="true"
+                                style="font-size: 30px ; font-size: 30px ; padding: 15px ;"></i>
+
+                            <h4 class="mt-4">ILLUSTION</h4>
+
+                            <p class="mt-3">Be set fourth land god darkness <br>
+                                make it wherein own</p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- secton 8 different icons  ( all icons  ends ) -->
+
+
+
+
+        <!-- section 9 ( moto ) -->
+
+        <section class="blue_bg_counter">
+
+            <div class="container">
+
+                <div class="row">
+
+
+                    <div class="col-lg-12">
+
+                        <div class="moto text-center mt_99 mb_99 ">
+
+
+                            <div class="container-fluid g-0">
+
+
+
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="0" class="active" aria-current="true"
+                                            aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item conta active">
+
+
+
+                                            <div
+                                                class="carousel-caption  d-md-block d-lg-block d-sm-block mb_200">
+                                                <p>“ Outstanding job and exceeded all expectations. It was a pleasure
+                                                    <br>
+                                                    to work with them on a sizable first project and am looking <br>
+                                                    forward to start the next one asap.”</p>
+
+                                                <span>MICHAEL HOPKINS</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="carousel-item conta">
+                                            <div class="carousel-caption  d-md-block mb_200">
+
+                                                <p>“ Outstanding job and exceeded all expectations. It was a pleasure
+                                                    <br>
+                                                    to work with them on a sizable first project and am looking <br>
+                                                    forward to start the next one asap.”</p>
+
+                                                <span>MICHAEL HOPKINS</span>
+
+                                            </div>
+
+
+                                        </div>
+
+                                        <div class="carousel-item conta">
+                                            <div class="carousel-caption  d-md-block mb_200">
+
+                                                <p>“ Outstanding job and exceeded all expectations. It was a pleasure
+                                                    <br>
+                                                    to work with them on a sizable first project and am looking <br>
+                                                    forward to start the next one asap.”</p>
+
+                                                <span>MICHAEL HOPKINS</span>
+
+                                            </div>
+
+
+                                        </div>
+
+
+
+
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+        </section>
+
+
+
+
+        <!-- section 9 ( moto  ends ) -->
+
+
+
+
+        <!-- section 10 ( brands ) -->
+
+
+<section>
+
+    <div class="container-fluid">
+
+        
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+        <section>
+
+            <div class="container">
+
+
+                <div class="row">
+
+
+
+
+                    <div class="col mt_99 mb_99">
+
+
+
+                        <div class="brands">
+
+                            <a href="">
+
+                                <img src="img/one_page/brands_img/1_vintage.png" alt="">
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col  mt_99 mb_99">
+
+                        <div class="brands">
+
+                            <a href="">
+
+                                <img src="img/one_page/brands_img/2_collection.png" alt="">
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col  mt_99 mb_99">
+
+                        <div class="brands">
+
+                            <a href="">
+
+                                <img src="img/one_page/brands_img/3_mountain.png" alt="">
+
+
+                            </a>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="col  mt_99 mb_99">
+
+                        <div class="brands">
+
+
+                            <a href="">
+
+                                <img src="img/one_page/brands_img/4_mount_bike.png" alt="">
+
+
+                            </a>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="col  mt_99 mb_99">
+
+                        <div class="brands">
+
+                            <a href="">
+
+                                <img src="img/one_page/brands_img/5_handmade.png" alt="">
+
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+        <!-- section 10 ( brands  ends ) -->
+
+
+
+
+        <!-- section 11 ( need project ) -->
+
+
+        <section class="contact_us_form_bg" id="contact">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-12">
+
+                        <div class="project mt_99">
+
+                            <h1>Need a Project?</h1>
+
+                            <p class="mt-4">Let us know what you're looking for in an agency. We'll take a look and see
+                                <br>
+                                if this could be the start of something beautiful.</p>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="  offset-lg-2 col-lg-8 offset-lg-2 mb_99">
+
+
+                        <form action="" method="get">
+
+                            <div class="row">
+
+                                <div class="col-lg-6 mt-3 mb-3">
+
+                                    <input type="text" placeholder="Your Name" class="form-control" name="" id="">
+
+                                </div>
+
+                                <div class="col-lg-6  mt-3 mb-3">
+
+                                    <input type="email" placeholder="Your Email" class="form-control" name="" id="">
+
+                                </div>
+
+                                <div class="col-lg-12  mt-3 mb-3">
+
+                                    <input type="text" placeholder="Your Title" class="form-control" name="" id="">
+
+                                </div>
+
+                                <div class="col-lg-12 mt-3 mb-3">
+
+                                    <textarea name="" id="" placeholder="Your Comment" class="form-control" cols="30"
+                                        rows="7"></textarea>
+
+                                </div>
+
+                                <!-- <div class="btn_2 mt-3 text-center">
+
+                                    <button class="button_2  btn btn-light">SEND MESSAGE</button>
+
+                                </div> -->
+
+                                <div class="btn_2 mt-3  contact_us">
+
+                                    <!-- <button class="button_2  btn  ">CONTACT US</button> -->
+                                    <a href="https://youtube.com/c/shortcode" target="_blank"
+                                        class="text-decoration-none">
+                                        <span> </span>
+                                        <span> </span>
+                                        <span> </span>
+                                        <span> </span>
+                                        SEND MESSAGE
+                                    </a>
+
+
+                                </div>
+
+
+                            </div>
+
+
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- section 11  ( need project  ends ) -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- section  ( footer ) -->
+
+
+        <section>
+
+            <div class="container-fluid footer_bg_clr">
+
+
+                <div class="container">
+
+
+                    <div class="row t_c">
+
+
+                        <div class="col-lg-3 mt_99 mt_20">
+
+                            <div class="legal ">
+
+                                <h2>Piroll Design, Inc.</h2>
+
+                                <span> &copy; 2022 Piroll. All rights reserved. <br>
+
+                                    Designed by robirurk
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-4 mt_99 mt_20">
+
+                            <div class="email">
+
+
+                                <a href="" class="t_c_e">hello@pirolltheme.com</a> <br>
+
+                                <a href="" class="t_c_e">+91 99046 86017</a>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-lg-3 mt_99 mt_20">
+
+
+                            <div class="row ">
+
+                                <div class="col-lg-6 ">
+
+                                    <div class="project_1  " style="list-style: none;">
+
+                                        
+                                        <ul >
+                                            <li><a href="" >Project</a></li>
+                                            <li><a href="" >About</a></li>
+                                            <li><a href="" >Services</a></li>
+                                            <li><a href="" >Carreer</a></li>
+                                        </ul>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-lg-6">
+
+                                    <div class="project_1">
+
+                                        <ul>
+                                            <li><a href="">News</a></li>
+                                            <li><a href="">Event</a></li>
+                                            <li><a href="">Contact</a></li>
+                                            <li><a href="">Legals</a></li>
+                                        </ul>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+                        <div class="col-lg-2 mt_99 mt_20">
+
+                            <div class="project_1" style="list-style: none; float:right ;">
+
+                                <ul>
+                                    <li><a href="">Facebook</a></li>
+                                    <li><a href="">Twitter</a></li>
+                                    <li><a href="">Instagram</a></li>
+                                    <li><a href="">Dribbble</a></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- section ( footer ends  )  -->
+
+
+
+
+
+
+
+    </body>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/javascript.js"></script>
+
+    </html>
